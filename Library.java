@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Library {
-    private ArrayList<Shelf> shelfs;
+    private ArrayList<Shelf> shelfs = new ArrayList<Shelf>();
 
     public Boolean addshelf(Shelf newShelf) {
         this.shelfs.add(newShelf);
