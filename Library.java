@@ -8,8 +8,8 @@ public class Library {
         return true;
     }
 
-    public Boolean addBookOnShelf(String category, Book newBook) {
-        this.shelfs.get(1).addBook(newBook);
+    public Boolean addBookOnShelf(int position, Book newBook) {
+        this.shelfs.get(position).addBook(newBook);
         return true;
     }
 

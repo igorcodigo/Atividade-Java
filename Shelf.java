@@ -8,6 +8,11 @@ public class Shelf {
         return true;
     }
 
+    public Boolean addBooks(ArrayList<Book> newBook) {
+        this.books.addAll(newBook);
+        return true;
+    }
+
     public String countBooks() {
         int rentedBooks = 0;
         for (Book book : books) {

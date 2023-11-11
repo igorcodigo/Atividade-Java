@@ -9,7 +9,7 @@ public class Employee {
     public String alugar(Book book) {
         var result = this.defineBookAvailability(book, false);
         if (!result) {
-            return "não consegui executar";
+            return "não é possível executar";
         }
         return "executado com sucesso";
     }
@@ -17,7 +17,7 @@ public class Employee {
     public String devolver(Book book) {
         var result = this.defineBookAvailability(book, true);
         if (!result) {
-            return "não consegui executar";
+            return "não é possível executar";
         }
         return "executado com sucesso";
     }
