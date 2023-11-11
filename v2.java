@@ -6,7 +6,7 @@ class Livro {
        this.titulo = titulo;
        this.autor = autor;
    }
-
+}
 class Usuario {
    private String nome;
 
